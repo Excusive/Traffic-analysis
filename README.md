@@ -140,9 +140,46 @@ install.packages(c(
 
 1. Clone the repository:
 ```
-    git clone https://github.com/your-username/traffic-analysis-pca.git
-    cd traffic-analysis-pca
+git clone https://github.com/your-username/traffic-analysis-pca.git
+cd traffic-analysis-pca
 ```
 2. Open traffic_analysis.Rmd in RStudio
 3. Click Knit → Select output format (HTML/PDF/Word)
 4. The complete report will be generated automatically
+
+### Run Scripts Sequentially (Alternative)
+```r
+source("scripts/01_load_and_clean.R")
+source("scripts/02_eda.R")
+source("scripts/03_pca.R")
+source("scripts/04_regression.R")
+source("scripts/05_time_series.R")
+source("scripts/06_report.R")
+```
+
+## Sample Visualizations
+
+| Analysis | Visualization |
+|----------|---------------|
+| **Distributions** | Histograms & boxplots by time of day / season / weather |
+| **Correlations** | Pearson correlation heatmap |
+| **PCA** | Scree plot & biplot (PC1–PC2) |
+| **Regression** | Residual diagnostics plots |
+| **Time Series** | STL decomposition & ARIMA forecast |
+
+### Correlation Heatmap
+![Correlation Heatmap](outputs/figures/correlation_heatmap.png)
+
+### Scree Plot
+![Scree Plot](outputs/figures/scree_plot.png)
+
+### PCA Biplot (PC1–PC2)
+![PCA Biplot](outputs/figures/biplot.png)
+
+### ARIMA Forecast vs Actual Values
+![ARIMA Forecast](outputs/figures/arima_forecast.png)
+
+### STL Decomposition
+![STL Decomposition](outputs/figures/stl_decomposition.png)
+
+> *All figures are automatically generated and included in the final RMarkdown report.*
