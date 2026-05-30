@@ -1,9 +1,11 @@
 # Traffic Flow Analysis Using Principal Component Analysis (PCA)
 
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![RStudio](https://img.shields.io/badge/RStudio-2025-blue?logo=rstudio)
 ![PCA](https://img.shields.io/badge/Method-PCA-blue?style=for-the-badge)
 ![Regression](https://img.shields.io/badge/Analysis-Regression-green?style=for-the-badge)
 ![Time Series](https://img.shields.io/badge/Time%20Series-ARIMA-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ## Overview
