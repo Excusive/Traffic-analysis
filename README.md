@@ -77,39 +77,41 @@ The work covers the full data analysis lifecycle:
 
 ## Repository Structure
 
+<pre>
 traffic-analysis-pca/
 │
-├── README.md # Project documentation
-├── LICENSE # MIT License
-├── report.pdf # Final report (PDF export)
-├── traffic_analysis.Rmd # RMarkdown source file
+├── README.md
+├── LICENSE
+├── report.pdf
+├── traffic_analysis.Rmd
 │
 ├── data/
-│ └── traffic_dataset.csv # Raw dataset
+│   └── traffic_dataset.csv
 │
 ├── scripts/
-│ ├── 01_load_and_clean.R # Data loading & preprocessing
-│ ├── 02_eda.R # Exploratory data analysis
-│ ├── 03_pca.R # PCA implementation
-│ ├── 04_regression.R # Regression models
-│ ├── 05_time_series.R # ARIMA forecasting
-│ └── 06_report.R # Report generation
+│   ├── 01_load_and_clean.R
+│   ├── 02_eda.R
+│   ├── 03_pca.R
+│   ├── 04_regression.R
+│   ├── 05_time_series.R
+│   └── 06_report.R
 │
 ├── outputs/
-│ ├── figures/ # All plots (PNG/PDF)
-│ │ ├── histograms.png
-│ │ ├── boxplots.png
-│ │ ├── correlation_heatmap.png
-│ │ ├── scree_plot.png
-│ │ ├── biplot.png
-│ │ ├── stl_decomposition.png
-│ │ └── arima_forecast.png
-│ └── tables/ # Model results (CSV)
-│ ├── descriptive_stats.csv
-│ ├── pca_loadings.csv
-│ ├── regression_results.csv
-│ └── arima_metrics.csv
+│   ├── figures/
+│   │   ├── histograms.png
+│   │   ├── boxplots.png
+│   │   ├── correlation_heatmap.png
+│   │   ├── scree_plot.png
+│   │   ├── biplot.png
+│   │   ├── stl_decomposition.png
+│   │   └── arima_forecast.png
+│   └── tables/
+│       ├── descriptive_stats.csv
+│       ├── pca_loadings.csv
+│       ├── regression_results.csv
+│       └── arima_metrics.csv
 │
 └── glarus_dashboard/
-├── dashboard_overview.png # Dashboard screenshot
-└── dashboard_config.json # Dashboard configuration
+    ├── dashboard_overview.png
+    └── dashboard_config.json
+</pre>
