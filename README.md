@@ -115,3 +115,34 @@ traffic-analysis-pca/
     ├── dashboard_overview.png
     └── dashboard_config.json
 </pre>
+
+
+---
+
+## 🚀 How to Reproduce
+
+### Prerequisites
+
+Install R and RStudio, then install required packages:
+
+```r
+install.packages(c(
+    "tidyverse",
+    "ggplot2",
+    "corrplot",
+    "forecast",
+    "rmarkdown",
+    "knitr",
+    "readxl"
+))
+```
+### Steps
+
+1. Clone the repository:
+```
+    git clone https://github.com/your-username/traffic-analysis-pca.git
+    cd traffic-analysis-pca
+```
+2. Open traffic_analysis.Rmd in RStudio
+3. Click Knit → Select output format (HTML/PDF/Word)
+4. The complete report will be generated automatically
