@@ -119,7 +119,7 @@ traffic-analysis-pca/
 
 ---
 
-## 🚀 How to Reproduce
+## How to Reproduce
 
 ### Prerequisites
 
